@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testingjenkins]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="selenium_jenkins.jenkinsselenium">
+        <methods>
+          <include name="testGoogle"/>
+          <include name="google"/>
+        </methods>
+      </class> <!-- selenium_jenkins.jenkinsselenium -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [testingjenkins] -->

@@ -15,22 +15,19 @@ public class seleniumjenkinss {
 	driver.findElement(By.name("q")).sendKeys("Indiapost",Keys.ENTER);
 	System.out.println(driver.getTitle());
 	Thread.sleep(5000);
-	driver.quit();
+
 	}
 	
-
     @Test
     public void testGoogle() {
         driver.get("https://www.facebook.com/");
       
         System.out.println("Title: " + driver.getTitle());
-      
-        
-    }
-    
+            
+    }  
     @Test
     public void testindiapost() {
-        driver.get("https://www.indiapost.gov.in/vas/Pages/IndiaPostHome.aspx");
+        driver.get("https://www.hdwallpapers.in/");
       
         System.out.println("Title: " + driver.getTitle());
       

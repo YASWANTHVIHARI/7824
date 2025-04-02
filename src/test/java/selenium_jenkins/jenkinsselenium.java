@@ -15,7 +15,7 @@ public class jenkinsselenium {
 	driver.findElement(By.name("q")).sendKeys("Indiapost",Keys.ENTER);
 	System.out.println(driver.getTitle());
 	Thread.sleep(5000);
-	driver.quit();
+	
 	}
 	
 
