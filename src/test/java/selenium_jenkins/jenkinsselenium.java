@@ -1,13 +1,12 @@
+package selenium_jenkins;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-
 public class jenkinsselenium {
-	
 	WebDriver driver= new ChromeDriver();
 	@Test
 	public void google() throws Exception{
