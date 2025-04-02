@@ -11,9 +11,6 @@ public class jenkinsselenium {
 	WebDriver driver= new ChromeDriver();
 	@Test
 	public void google() throws Exception{
-
-//	WebDriverManager.chromedriver().setup();
-	WebDriver driver= new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.get("https://www.google.co.in/");
 	driver.findElement(By.name("q")).sendKeys("Indiapost",Keys.ENTER);
