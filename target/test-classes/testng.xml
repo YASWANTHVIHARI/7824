@@ -3,9 +3,9 @@
 <suite name="DemoSuite">
   <test  name="Test">
 	  <classes>
-		  <class name="selenium_jenkins.jenkinsselenium">
+		  <class name="selenjenk.seleniumjenkinss">
 			  <methods>
-				  <include name="testGoogle"/>
+				  <include name="testindiapost"/>
 				  <include name="google"/>
 			  </methods>
 			  
