@@ -7,10 +7,12 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class jenkinsselenium {
+	
+	WebDriver driver= new ChromeDriver();
 	@Test
 	public void google() throws Exception{
 
-	WebDriverManager.chromedriver().setup();
+//	WebDriverManager.chromedriver().setup();
 	WebDriver driver= new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.get("https://www.google.co.in/");
@@ -19,5 +21,15 @@ public class jenkinsselenium {
 	Thread.sleep(5000);
 	driver.quit();
 	}
+	
+
+    @Test
+    public void testGoogle() {
+        driver.get("https://www.facebook.com/");
+      
+        System.out.println("Title: " + driver.getTitle());
+      
+        
+    }
 
 }
