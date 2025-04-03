@@ -4,12 +4,18 @@
 	<test name="Test1">
 		<classes>
 			<class name="selenjenk.seleniumjenkinss">
+				<methods>
+					<include name="testGoogle" />
+				</methods>
 			</class>
 		</classes>
 	</test>
 	<test name="Test2">
 		<classes>
 			<class name="selenium_jenkins.jenkinsselenium">
+				<methods>
+					<include name="testIndiapost" />
+				</methods>
 			</class>
 		</classes>
 	</test>
