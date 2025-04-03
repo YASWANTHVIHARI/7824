@@ -16,9 +16,7 @@ public class jenkinsselenium {
     public void setup() {
         // Set Chrome options for Jenkins/CI environments
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--no-sandbox","--disable-dev-shm-usage","--headless"); // Bypass OS security model
-        //options.addArguments("--disable-dev-shm-usage"); // Overcome limited resource problems
-        //options.addArguments("--headless"); // Run in headless mode for CI/CD
+        options.addArguments("--no-sandbox","--disable-dev-shm-usage","--headless"); 
         driver = new ChromeDriver(options);
         
         // Maximize browser window
