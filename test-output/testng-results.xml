@@ -1,33 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-03T11:58:53 IST" name="testingjenkins" finished-at="2025-04-03T11:59:03 IST" duration-ms="10217">
+  <suite started-at="2025-04-03T12:44:49 IST" name="testingjenkins" finished-at="2025-04-03T12:45:06 IST" duration-ms="17461">
     <groups>
     </groups>
-    <test started-at="2025-04-03T11:58:53 IST" name="Test1" finished-at="2025-04-03T11:59:03 IST" duration-ms="10217">
+    <test started-at="2025-04-03T12:44:49 IST" name="Test1" finished-at="2025-04-03T12:44:58 IST" duration-ms="8792">
       <class name="selenjenk.seleniumjenkinss">
-        <test-method is-config="true" signature="setup()[pri:0, instance:selenjenk.seleniumjenkinss@2a65fe7c]" started-at="2025-04-03T11:58:53 IST" name="setup" finished-at="2025-04-03T11:58:54 IST" duration-ms="1670" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:selenjenk.seleniumjenkinss@2a65fe7c]" started-at="2025-04-03T12:44:49 IST" name="setup" finished-at="2025-04-03T12:44:50 IST" duration-ms="957" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="google()[pri:0, instance:selenjenk.seleniumjenkinss@2a65fe7c]" started-at="2025-04-03T11:58:54 IST" name="google" finished-at="2025-04-03T11:59:02 IST" duration-ms="7385" status="PASS">
+        <test-method signature="google()[pri:0, instance:selenjenk.seleniumjenkinss@2a65fe7c]" started-at="2025-04-03T12:44:50 IST" name="google" finished-at="2025-04-03T12:44:56 IST" duration-ms="6332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- google -->
-        <test-method signature="testGoogle()[pri:0, instance:selenjenk.seleniumjenkinss@2a65fe7c]" started-at="2025-04-03T11:59:02 IST" name="testGoogle" finished-at="2025-04-03T11:59:02 IST" duration-ms="732" status="PASS">
+        <test-method signature="testGoogle()[pri:0, instance:selenjenk.seleniumjenkinss@2a65fe7c]" started-at="2025-04-03T12:44:56 IST" name="testGoogle" finished-at="2025-04-03T12:44:57 IST" duration-ms="1000" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGoogle -->
-        <test-method signature="testIndiapost()[pri:0, instance:selenjenk.seleniumjenkinss@2a65fe7c]" started-at="2025-04-03T11:59:02 IST" name="testIndiapost" finished-at="2025-04-03T11:59:02 IST" duration-ms="149" status="PASS">
+        <test-method signature="testIndiapost()[pri:0, instance:selenjenk.seleniumjenkinss@2a65fe7c]" started-at="2025-04-03T12:44:57 IST" name="testIndiapost" finished-at="2025-04-03T12:44:57 IST" duration-ms="282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIndiapost -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenjenk.seleniumjenkinss@2a65fe7c]" started-at="2025-04-03T11:59:03 IST" name="tearDown" finished-at="2025-04-03T11:59:03 IST" duration-ms="231" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenjenk.seleniumjenkinss@2a65fe7c]" started-at="2025-04-03T12:44:57 IST" name="tearDown" finished-at="2025-04-03T12:44:58 IST" duration-ms="165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- selenjenk.seleniumjenkinss -->
     </test> <!-- Test1 -->
+    <test started-at="2025-04-03T12:44:58 IST" name="Test2" finished-at="2025-04-03T12:45:06 IST" duration-ms="8619">
+      <class name="selenium_jenkins.jenkinsselenium">
+        <test-method signature="google()[pri:0, instance:selenium_jenkins.jenkinsselenium@6622fc65]" started-at="2025-04-03T12:44:58 IST" name="google" finished-at="2025-04-03T12:45:05 IST" duration-ms="7870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google -->
+        <test-method signature="testGoogle()[pri:0, instance:selenium_jenkins.jenkinsselenium@6622fc65]" started-at="2025-04-03T12:45:05 IST" name="testGoogle" finished-at="2025-04-03T12:45:06 IST" duration-ms="744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogle -->
+      </class> <!-- selenium_jenkins.jenkinsselenium -->
+    </test> <!-- Test2 -->
   </suite> <!-- testingjenkins -->
 </testng-results>
