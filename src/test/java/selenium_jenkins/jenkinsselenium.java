@@ -39,8 +39,8 @@ public class jenkinsselenium {
 
     @Test
     public void testIndiapost() {
-        driver.get("https://www.hdwallpapers.in/");
-        System.out.println("HD Wallpapers Title: " + driver.getTitle());
+        driver.get("https://www.indiapost.gov.in/vas/Pages/IndiaPostHome.aspx");
+        System.out.println("Indiapost Title: " + driver.getTitle());
     }
 
     @AfterTest

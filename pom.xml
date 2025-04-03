@@ -57,10 +57,11 @@
 					<includes>
 						<include>**/runner.class</include>
 					</includes>
-
-
 					<suiteXmlFiles>
 						<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+					<suiteXmlFiles>
+						<suiteXmlFile>src/test/resources/withog.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
